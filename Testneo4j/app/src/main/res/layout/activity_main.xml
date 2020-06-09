@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="552dp"
+        android:text="Начать опрос"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="356dp"
+        android:layout_height="508dp"
+        android:layout_marginTop="44dp"
+        android:text='Вам предлагается пройти опрос, чтобы определить текущее состояние здоровье. На основе ваших ответов, будет предложено обратиться к тому или иному врачу, взяв предварительно набор анализов. На каждый вопрос необходимо выбрать вариант ответа и нажать кнопку "Далее", если хотите изменить свой ответ, то воспользуйтесь системной кнопкой "Назад" внизу экрана. Для того чтобы начать опрос, пожалуйста нажмите соответствующую кнопку. '
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="27dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
